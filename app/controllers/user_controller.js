@@ -62,7 +62,8 @@ class UserController {
         
         // let student = JSON.parse(data)
         
-        console.log("DATA",req.body['data'])
+        console.log("DATA",req.body) 
+        console.log("FILES", req.files)
 
 
         res.status(200).json("TESTE")
